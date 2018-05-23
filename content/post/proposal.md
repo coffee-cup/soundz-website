@@ -12,7 +12,7 @@ Successfully audio fingerprinting implementations face many technological challe
 
 # Initial Survey
 
-Several applications already exist that allow a user to identify a song using only their smartphones microphones. Most notable are the [Soundhound](https://soundhound.com/) and [Shazam](https://www.shazam.com/) applications. These services can accurately identify the song playing a noisy bar or coffee shop with only a few seconds of audio. A few algorithms exist to convert a segment of audio into a fingerprint. Throughout my project I will be investigating and comparing them. The general idea these algorithms follow is after some initial preprocessing of the audio, key features in the time and frequency domain are hashed and stored in a database. When an audio sample needs to be identified, the hash of its key points are compared to the ones in the database.
+Several applications already exist that allow a user to identify a song using only their smartphones microphones. Most notable are the [Soundhound](https://soundhound.com/) and [Shazam](https://www.shazam.com/) applications. These services can accurately identify the song playing in a noisy bar or coffee shop with only a few seconds of audio. A few algorithms exist to convert a segment of audio into a fingerprint. Throughout my project I will be investigating and comparing them. The general idea these algorithms follow is after some initial preprocessing of the audio, key features in the time and frequency domain are hashed and stored in a database. When an audio sample needs to be identified, the hash of its key points are compared to the ones in the database.
 
 # Expected Deliverables
 
