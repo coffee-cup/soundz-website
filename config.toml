@@ -1,0 +1,28 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Soundz"
+theme = "classic"
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
+enableEmoji = true
+footnotereturnlinkcontents = "↩"
+
+[permalinks]
+    post = "/post/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 2
+[[menu.main]]
+    name = "Contact"
+    url = "/contact"
+    weight = 3
+
+[params]
+    description = "An audio fingerprinting project."
+    footer = "Project by [Jake Runzer](https://jakerunzer.com)"
