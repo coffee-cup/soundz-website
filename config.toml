@@ -1,11 +1,10 @@
-baseURL = "/"
+baseURL = "https://soundz.jakerunzer.com"
 languageCode = "en-us"
 title = "Soundz"
 theme = "classic"
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 enableEmoji = true
-footnotereturnlinkcontents = "↩"
 
 [permalinks]
     post = "/post/:year/:month/:day/:slug/"
