@@ -4,6 +4,7 @@ body {
     max-width: 40rem;
     margin: auto;
     padding: 0 1rem;
+    color: #333;
 }
 
 h1,
@@ -54,6 +55,13 @@ a {
 
 a:visited {
     color: rgb(77, 58, 226);
+}
+
+blockquote {
+    margin-left: 0.5rem;
+    padding-left: 1rem;
+    color: grey;
+    border-left: solid 4px darkgrey;
 }
 
 li .date {
