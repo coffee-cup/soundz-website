@@ -1,7 +1,7 @@
 ---
 title: "Research"
 date: 2018-06-10T23:23:51-07:00
-draft: true
+draft: false
 ---
 
 I have looked at multiple academic papers describing various acoustic fingerprinting algorithms, which include
