@@ -31,3 +31,5 @@ Start the implementation of the demo. Finalize details of algorithm.
 ### Week 4
 
 Final demo of audio fingerprinting program.
+
+...
