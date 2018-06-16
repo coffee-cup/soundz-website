@@ -2,8 +2,6 @@
 title: Home
 ---
 
-# Soundz
-
 An acoustic fingerprint is a small summary of an audio signal. They are commonly created from songs and can be used to identify which song a short audio sample originated from.
 
 From Wikipedia,
