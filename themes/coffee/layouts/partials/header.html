@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" href="{{ "/css/coffee.css" | relURL }}" />
+    <link rel="stylesheet" href="{{ "/css/fonts.css" | relURL }}" />
+    {{ range .Site.Params.custom_css -}}
+    <link rel="stylesheet" href="{{ . | absURL }}">
+    {{- end }}
+
+    <link rel="stylesheet" href="{{ "/css/code.css" | relURL }}" />
+
+  </head>
+
+  <body>
+
+   <div class="container">
+    <header class="{{ if .IsHome }}large{{ end }}">
+      <a href="/" class="none">
+        <h1 class="heading">
+          {{ .Site.Title }}
+        </h1>
+      </a>
+
+      {{ partial "nav.html" . }}
+    </header>
+

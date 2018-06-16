@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat:400,700');
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Avenir Next', Avenir, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol' !important;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4 {
+   font-weight: 700;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+}
+
+code {
+  font-family: Consolas, monaco, monospace;
+}
+
+.sans {
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Avenir Next', Avenir, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol' !important;
+}
