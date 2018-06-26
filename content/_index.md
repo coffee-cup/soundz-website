@@ -10,4 +10,6 @@ From Wikipedia,
 
 For my project I will investigate various acoustic fingerprinting techniques. I will also implement a small program that demonstrates creating a fingerprint from an audio file and matching segments of audio to a database of fingerprints.
 
+The source for this project can be found [on Github](https://github.com/coffee-cup/soundz).
+
 ### Project Updates
