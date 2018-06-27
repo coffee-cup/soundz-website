@@ -11,7 +11,7 @@ The demo will be implemented using the original [Shazam algorithm](http://www.ee
 
 The fingerprint generation and matching process can be seen in the following diagram. In this post I will give a high level overview of this architecture. I will follow this up with another post on the implementation details and results.
 
-![fingerprint generation diagram](https://imgur.com/6znFkjn.png)
+![fingerprint generation diagram](https://imgur.com/ciYRJ1L.png)
 
 ## Fingerprint Creation
 
