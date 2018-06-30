@@ -1,7 +1,7 @@
 ---
 title: "Video"
 date: 2018-06-29T18:00:43-07:00
-draft: true
+draft: false
 ---
 
 A video for this project has been created and can be found here, [youtu.be/SRxhIRTC2j4](https://youtu.be/SRxhIRTC2j4).
