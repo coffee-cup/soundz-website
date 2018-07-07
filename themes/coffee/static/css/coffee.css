@@ -65,6 +65,11 @@ p {
     margin-bottom: 1.3em;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+}
+
 header {
     margin-top: 1rem;
     margin-bottom: 2rem;

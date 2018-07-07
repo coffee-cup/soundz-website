@@ -11,7 +11,7 @@ The demo will be implemented using the original [Shazam algorithm](http://www.ee
 
 The fingerprint generation and matching process can be seen in the following diagram. In this post I will give a high level overview of this architecture. I will follow this up with another post on the implementation details and results.
 
-![architecture diagram](https://imgur.com/ciYRJ1L.png)
+![architecture diagram](/images/arch.png)
 
 ## Fingerprint Creation
 
@@ -20,9 +20,9 @@ Audio fingerprints will be created for each known song and stored in the databas
 
 ### Spectrogram
 
-First, a spectrogram of the audio is created using the short-time fourier transform (STFT). This creates a time-frequency graph that stores the amplitude of each frequency at each point in time. An example of a spectrogram from the Shazam paper can be seen in the following image,
+First, a spectrogram of the audio is created using the short-time fourier transform (STFT). This creates a time-frequency graph that stores the amplitude of each frequency at each point in time. An example of a spectrogram created in with program can be seen in the following image.
 
-![spectrogram](https://imgur.com/lFoagoc.png)
+![spectrogram](/images/spec_ex.png)
 
 The y axis represents frequency and the x axis represents time. The darkness represents the amplitude of a specific frequency at a specific point in time. The amplitude is commonly represent by different colours.
 
@@ -32,9 +32,9 @@ Second, the spectrogram is analyzed and the peaks are selected. A time-frequency
 
 Selecting high energy points helps make this algorithm robust to noise, as most of the noise will simply be discarded.
 
-The following figure shows an example of a constellation map.
+The following figure shows an example of a constellation map generated with my program.
 
-![constellation map](https://imgur.com/3HDtZ1p.png)
+![constellation map](/images/constellation.png)
 
 ### Find Pairs
 
