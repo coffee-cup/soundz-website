@@ -13,4 +13,4 @@ In the video I
 - give a detailed overview of my implementation
 - give a demo of my working program
 
-I will give a follow up post in a few days about my implementation and results.
+The slides I used in the video can be [found here](/slides.pdf).
