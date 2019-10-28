@@ -2,6 +2,10 @@
 title: Home
 ---
 
+<script async defer src="https://hello.jakerunzer.com/app.js"></script>
+
+<noscript><img src="https://hello.jakerunzer.com/image.gif" alt=""></noscript>
+
 An acoustic fingerprint is a small summary of an audio signal. They are commonly created from songs and can be used to identify which song a short audio sample originated from.
 
 From Wikipedia,
